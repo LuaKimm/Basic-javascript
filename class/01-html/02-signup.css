@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+#title {
+    width: 466px;
+    height: 94px;
+    color: #0068ff;
+    font-size: 32px;
+    font-family: Noto Sans CJK KR;
+    text-align: justify;
+}
+
+#tBox {
+    width: 670px;
+    height: 960px;
+    border: 1px solid #aacdff;
+    margin-top: 60px;
+    margin-left: 625px;
+    padding: 100px;
+    box-shadow: 7px 7px 39px 0px #0068ff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"]{
+    width: 466px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #797979;
+}
+
+input[type="pw"]{
+    width: 466px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #797979;
+}
+
+button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0068ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input.underline {
+ border-left-width: 0;
+ border-right-width: 0;
+ border-top-width: 0;
+ border-bottom-width: 1px;
+}
+
+#gender {
+    width : 140px;
+    height: 23.94px;
+    border : 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-container {
+    width: 466px;
+    height: 21.06px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    align-items: center;
+    display : flex;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.register {
+    border-top : 1px solid #e6e6e6;
+    width: 470px;
+    height: 1px;
+
+}
+.button {
+    background-color: #FFFFFF;
+    border :1px solid #0068FF;
+    width: 470px;
+    height: 75px;
+    border-radius: 10px;
+    font-size : 18px;
+    color : #0068FF;
+    text-align: center;
+    font-weight: 400;
+    line-height: 26.64px;
+    font-family: Noto Sans CJK KR;
+}
