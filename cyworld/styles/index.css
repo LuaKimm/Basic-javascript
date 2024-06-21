@@ -44,8 +44,20 @@
     height: 30px;
 }
 
+
 .today {
+    padding-top: 10px;
     font-size: 9px;
+}
+
+
+.zero {
+    color : red;
+    font-size: 11px;
+}
+
+.count {
+    font-size : 11px;
 }
 
 .wrapper__left__body {
@@ -110,9 +122,14 @@
 .wrapper__feel {
     width: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    margin-bottom: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feel__title {
+    color : grey;
+    font-size: 11px;
+    margin-bottom : 5px;
 }
 
 .feel__select {
@@ -123,6 +140,105 @@
 .wrapper__right {
     width: 524px;
     height: 472px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.title__cyWorld {
+    color : #55B2D4;
+    font-size: 16px;
+}
+
+.title__cyWorld__privacy {
+    color : #55B2D4;
+    font-size: 13px;
+
+}
+
+.update {
+    color: #55B2D4;
+    font-size: 13px;
+    margin : 0px 10px 0px 0px;
+}
+.todayStory {
+    color: #000000;
+    font-size: 8px;
+    margin-top: 3px;
+}
+
+.body__header__news {
+    display : flex;
+    flex-direction: row;
+}
+.wrapper__right__header {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper__right__body {
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px 0px 30px;
+}
+
+.right__body__header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right__body__header__line {
+    border-top: 1px solid black;
+    margin: 12px 0px;
+}
+
+.context {
+    font-size: 11px;
+    color: #999999;
+    margin-bottom: 50px;
+}
+
+.right__body__footer {
+    width: 100%;
+    height: 100%;
+    display :flex;
+    flex-direction: column;
+}
+
+.vedIntro {
+    display : flex;
+    flex-direction : row;
+    margin-top: 30px;
+}
+
+.video {
+    font-size: 13px;
+    color: #55B2D4;
+    margin : 0px 10px 0px 0px;
+}
+
+.intro {
+    color : #000000;
+    font-size: 8px;
+    margin-top: 4px;
+}
+
+.right__body__header__gray {
+    width: 100%;
+    height: 250px;
+    background-color: grey;
 }
 
 select {
