@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>sign up</title>
+    <link href = "./final.css" rel = "stylesheet">
+    <scrip src = "./final.js"></scrip>
+</head>
+<body>
+    <div class = "wrapper">
+        <div class = "wrapper__header">
+            <div class = "header__title">코드캠프 회원가입</div>
+        <input class = "email" type = "text" placeholder="이메일을 입력해 주세요.">
+        <input class = "email-1" type = "text" placeholder="이름을 입력해 주세요.">
+        <input class = "email-1" type = "text" placeholder="비밀번호를 입력해 주세요.">
+        <input class = "email-1" type = "text" placeholder="비밀번호를 다시 입력해 주세요.">
+        <div class ="auth">
+        <input class = "pw_1" type = "text">-
+        <input class = "pw_1" type = "text">-
+        <input class = "pw_1" type = "text">
+    </div>
+        <div class = "sending">
+            <div id="target">000000</div>
+            <button class = "button" id="button" onclick = "auth()">인증번호 전송</button>
+
+            <div>0:00</div>
+            <button class = "finish" id="finish">인증확인</button>
+        </div>
+        <select class = "area">
+            <option disabled="true" selected="true">지역을 선택하세요</option>
+            <option>서울</option>
+            <option>경기</option>
+            <option>인천</option>
+            <option>부산</option>
+            <option>울산</option>
+            <option>김해</option> 
+        </select>
+
+        <div id = "gender">
+            <input type="radio" name="gender">여성
+            <input type="radio" name="gender">남성
+            </div> 
+            
+        <div class = "divideLine"></div>
+        <button class = "snButton">가입하기</button>
+    </div>
+    </div>
+    
+</body>
+</html>
