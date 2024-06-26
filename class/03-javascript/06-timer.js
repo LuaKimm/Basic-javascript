@@ -20,7 +20,7 @@ let auth = () => {
            let sec = String(time % 60).padStart(2, "0")
            document.getElementById("timer").innerText = min + ":" + sec
             time = time - 1
-        } else {
+        } else { 
             document.getElementById("complete").disabled = true
             isStarted = false
             clearInterval(timer)
