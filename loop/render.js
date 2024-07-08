@@ -1,7 +1,7 @@
 // ! 이 파일의 코드는 수정하지 마세요 ! //
 
-import students from './data/data.js';
-import { designateGrade } from './src/stage2.js';
+import students from "./data/data.js";
+import { designateGrade } from "./src/stage2.js";
 
 // render
 
@@ -9,12 +9,12 @@ import { designateGrade } from './src/stage2.js';
 // stage1과 stage2가 완성되면 index.html 페이지에 전달 받은 정보가 보여집니다.
 
 const renderScore = function (students) {
-    const container = document.querySelector('.container');
-    const scoreList = designateGrade(students);
+  const container = document.querySelector(".container");
+  const scoreList = designateGrade(students);
 
-    let divTemp = '';
-    for (let i = 0; i < scoreList.length; i++) {
-        divTemp += `
+  let divTemp = "";
+  for (let i = 0; i < scoreList.length; i++) {
+    divTemp += `
     <div class="student-container">
       <div class="name-container">
         <span class="student-name">이름 :</span>
@@ -25,9 +25,9 @@ const renderScore = function (students) {
         <span>${scoreList[i].grade}</span>
       </div>
     </div>`;
-    }
+  }
 
-    container.innerHTML += divTemp;
+  container.innerHTML += divTemp;
 };
 
 renderScore(students);
